@@ -1,0 +1,8 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadta:
+  name: myapp-config
+data:
+  db_host: "mysqldb"
+  db_port: "3306"
