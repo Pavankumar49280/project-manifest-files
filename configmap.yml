@@ -4,5 +4,5 @@ kind: ConfigMap
 metadata:
   name: myapp-config
 data:
-  db_host: "mysqldb"
-  db_port: "3306"
+  DB_HOST: "mysqldb"
+  DB_PORT: "3306"
